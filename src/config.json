@@ -1,0 +1,105 @@
+[
+  {
+    "name": "field1",
+    "type": "text"
+  },
+  {
+    "name": "field2",
+    "type": "number"
+  },
+  {
+    "name": "button1",
+    "type": "button",
+    "label": "Click me"
+  },
+  {
+    "name": "checkbox1",
+    "type": "checkbox",
+    "label": "Check me"
+  },
+  {
+    "name": "checkbox2",
+    "type": "checkbox",
+    "label": "Check me"
+  },
+  {
+    "name": "checkbox3",
+    "type": "checkbox",
+    "label": "Check me"
+  },
+  {
+    "name": "radio1",
+    "type": "radio",
+    "label": "Option 1",
+    "value": "option1"
+  },
+  {
+    "name": "radio1",
+    "type": "radio",
+    "label": "Option 2",
+    "value": "option2"
+  },
+  {
+    "name": "select1",
+    "type": "select",
+    "label": "Select an option",
+    "options": [
+      {
+        "label": "Option 1",
+        "value": "option1"
+      },
+      {
+        "label": "Option 2",
+        "value": "option2"
+      },
+      {
+        "label": "Option 3",
+        "value": "option3"
+      }
+    ]
+  },
+  {
+    "name": "paragraph1",
+    "type": "paragraph",
+    "text": "This is a paragraph component."
+  },
+  {
+    "name": "section1",
+    "type": "section",
+    "title": "Section Title",
+    "children": [
+      {
+        "type": "paragraph",
+        "text": "This is a paragraph inside a section."
+      },
+      {
+        "type": "button",
+        "label": "Submit"
+      }
+    ]
+  },
+  {
+    "name": "article1",
+    "type": "article",
+    "title": "Article Title",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+  },
+  {
+    "name": "tabs1",
+    "type": "tabs",
+    "tabs": [
+      {
+        "label": "Tab 1",
+        "content": "Tab 1 content"
+      },
+      {
+        "label": "Tab 2",
+        "content": "Tab 2 content"
+      },
+      {
+        "label": "Tab 3",
+        "content": "Tab 3 content"
+      }
+    ]
+  }
+]
