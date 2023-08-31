@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/pagebuilder/static/js/main.3da1d3cc.js",
+    "index.html": "/pagebuilder/index.html",
+    "main.3da1d3cc.js.map": "/pagebuilder/static/js/main.3da1d3cc.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.3da1d3cc.js"
+  ]
+}
