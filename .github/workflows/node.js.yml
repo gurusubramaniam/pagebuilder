@@ -28,7 +28,8 @@ jobs:
         cache: 'npm'
     - name: Install dependencies
       run: npm install
-
+    - name: Adding Env variable
+      run: export NODE_OPTIONS=--openssl-legacy-provider
     - name: Build
       run: npm run build
     - name: Deploy
